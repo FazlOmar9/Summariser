@@ -1,0 +1,6 @@
+numpy
+nltk
+huggingface_hub
+pymupdf
+clean-text
+python-dotenv
