@@ -27,8 +27,8 @@ def summarize(pages: list, batch_limit: int = 10):
             "role": "system",
             "content": """You are an assistant and are an expert at summarizing 
             financial documents. For each part of content the user provides
-            you should return a summarized one line each as points. No small talk
-            , no other details. Just the points.
+            you should return a summarized one line each as points. No saying
+            'here's the summary:' or anything similar. Just the points.
             """
         },
             {
