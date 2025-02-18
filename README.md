@@ -43,8 +43,9 @@ financial-doc-summarizer/
 │── docs/
 │   ├── reliance.pdf  # Sample financial document
 │── main.py           # Main script to run the summarizer
-│── summarizer.py     # Handles text summarization
-│── extractor.py      # Extracts text from PDFs
+│── inference.py     # Handles text summarization
+│── reader.py      # Extracts text from PDFs
+│── segment.py      # Segments extracted text into chunks
 │── requirements.txt  # List of dependencies
 │── README.md         # Project documentation
 ```
